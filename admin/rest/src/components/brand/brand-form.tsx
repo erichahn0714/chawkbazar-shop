@@ -32,6 +32,7 @@ export const updatedIcons = typeIconList.map((item: any) => {
           iconName: item.value,
           className: "max-h-full max-w-full",
         })}
+        console.log(item);
       </span>
       <span>{item.label}</span>
     </div>
